@@ -1,0 +1,11 @@
+@import "../../../../../partials/flex";
+
+.ContactDetails {
+    @include flex;
+
+    height: 30px;
+
+    > div {
+        margin-right: 10px;
+    }
+}

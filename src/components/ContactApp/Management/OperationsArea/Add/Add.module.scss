@@ -1,0 +1,31 @@
+@import "../../../../../partials/flex";
+
+.Add {
+    @include flex(space-between) {
+        flex-direction: column;
+    }
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    height: 520px;
+    padding: 20px;
+    width: 260px;
+
+    .header {
+        @include flex(space-between);
+        width: 220px;
+
+        > div {
+            cursor: pointer;
+        }
+    }
+
+    .newContactInfo {
+        @include flex(space-between) {
+            flex-direction: column;
+        }
+
+        height: 282px;
+        width: 220px;
+    }
+}

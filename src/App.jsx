@@ -71,6 +71,26 @@ const App = function () {
         position: { x: 0, y: 0 },
 
         details: { fullName: "", email: "", phoneNumber: "", _id: 0 },
+
+        searchByMsg: "search by fullName",
+        searchByPhoneNumber: false,
+        searchByFullName: true,
+        searchByEmail: false,
+        searchBy: "",
+
+        deleteByMsg: "delete by ID",
+        deleteByPhoneNumber: false,
+        deleteByFullName: false,
+        deleteByEmail: false,
+        deleteById: true,
+        deleteBy: "",
+
+        editByMsg: "edit by ID",
+        editByPhoneNumber: false,
+        editByFullName: false,
+        editByEmail: false,
+        editById: true,
+        editBy: "",
     });
 
     return (
